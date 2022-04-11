@@ -24,6 +24,9 @@ function App() {
         <div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
           <a href="https://axios-psi.vercel.app/" target="_blank">Axios</a>
         </div>
+        <div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
+          <a href="https://u-weather.vercel.app/" target="_blank">Weather App</a>
+        </div>
 
       </main>
       <footer className="container mx-auto p-6 flex flex-col md:flex-row items-center justify-between">
