@@ -12,22 +12,25 @@ function App() {
           My Projects Page
         </h1>
 
-        <div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
-          <a href="https://hendimejdi.vercel.app/" target="_blank">HendiMejdi</a>
-        </div>
-        <div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
-          <a href="https://dnd-board.vercel.app/" target="_blank">Drag and Drop Board</a>
-        </div>
-        <div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
-          <a href="https://tscript-todo.netlify.app" target="_blank">Typescript - ToDo App</a>
-        </div>
-        <div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
-          <a href="https://axios-psi.vercel.app/" target="_blank">Axios</a>
-        </div>
-        <div className="text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
-          <a href="https://u-weather.vercel.app/" target="_blank">Weather App</a>
-        </div>
+        <div className="grid gap-10 grid-cols-3 grid-rows-3 justify-center mt-15">
+          <a href="https://hendimejdi.vercel.app/" target="_blank">
+            <img src="./src/img/hm.png" alt="logo" className=" rounded-full justify-center" /><h2 className="p-2">HendiMejdi</h2></a>
+       
+          <a href="https://dnd-board.vercel.app/" target="_blank">
+            <img src="./src/img/dnd.png" alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Drag'n'Drop Board </h2></a>
+      
+          <a href="https://tscript-todo.netlify.app" target="_blank">
+            <img src="./src/img/todo.png" alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Typescript - Todo</h2></a>
 
+          <a href="https://axios-psi.vercel.app/" target="_blank">
+            <img src="./src/img/fetch.png" alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Futurama Api Fetch</h2></a>
+       
+          <a href="https://u-weather.vercel.app/" target="_blank">
+            <img src="./src/img/weather.png" alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Weather App</h2></a>
+          
+          <h3 className="text-4xl mt-20">◦◦◦<span className="pl-2">more to come</span></h3>
+       
+        </div>
       </main>
       <footer className="container mx-auto p-6 flex flex-col md:flex-row items-center justify-between">
         <p>phz | 2022</p>
