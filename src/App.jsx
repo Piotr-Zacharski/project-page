@@ -20,19 +20,19 @@ function App() {
 
         <div className="grid gap-10 grid-cols-3 grid-rows-3 justify-center mt-15">
           <a href="https://hendimejdi.vercel.app/" target="_blank">
-            <img src={hm} alt="logo" className=" rounded-full justify-center" /><h2 className="p-2">HendiMejdi</h2></a>
+            <img src={hm} alt="logo" className="justify-center hover:scale-110" /><h2 className="p-2">HendiMejdi</h2></a>
        
           <a href="https://dnd-board.vercel.app/" target="_blank">
-            <img src={dnd} alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Drag'n'Drop Board </h2></a>
+            <img src={dnd} alt="logo" className="justify-center hover:scale-110" /><h2 className="p-2">Drag'n'Drop Board </h2></a>
       
           <a href="https://tscript-todo.netlify.app" target="_blank">
-            <img src={todo} alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Typescript - Todo</h2></a>
+            <img src={todo} alt="logo" className="justify-center hover:scale-110" /><h2 className="p-2">Typescript - Todo</h2></a>
 
           <a href="https://axios-psi.vercel.app/" target="_blank">
-            <img src={fetch} alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Futurama Api Fetch</h2></a>
+            <img src={fetch} alt="logo" className="justify-center hover:scale-110" /><h2 className="p-2">Futurama Api Fetch</h2></a>
        
           <a href="https://u-weather.vercel.app/" target="_blank">
-            <img src={weather} alt="logo" className="justify-center rounded-full" /><h2 className="p-2">Weather App</h2></a>
+            <img src={weather} alt="logo" className="justify-center hover:scale-110" /><h2 className="p-2">Weather App</h2></a>
           
           <h3 className="text-4xl mt-20">◦◦◦<span className="pl-2">more to come</span></h3>
        
@@ -41,8 +41,8 @@ function App() {
       <footer className="container mx-auto p-6 flex flex-col md:flex-row items-center justify-between">
         <p>phz | 2022</p>
         <div className="flex -mx-6">
-          <a href="https://www.linkedin.com/in/piotr-h-zacharski" className="mx-3 hover:opacity-50 hover:text-yellow duration-150"><LinkedInIcon /></a> |
-          <a href="https://github.com/Piotr-Zacharski" className="mx-3 hover:opacity-50 duration-150"><GitHubIcon /></a>
+          <a href="https://www.linkedin.com/in/piotr-h-zacharski" className="mx-3 hover:opacity-50 hover:text-yellow duration-150" target="_blank"><LinkedInIcon /></a> |
+          <a href="https://github.com/Piotr-Zacharski" className="mx-3 hover:opacity-50 duration-150" target="_blank"><GitHubIcon /></a>
         </div>
       </footer>
     </div>
