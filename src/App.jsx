@@ -3,6 +3,8 @@ import dnd from '/src/img/dnd.png';
 import todo from '/src/img/todo.png';
 import fetch from '/src/img/fetch.png';
 import weather from '/src/img/weather.png';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 function App() {
   return (
     <div className="min-h-screen flex flex-col text-white">
@@ -39,9 +41,8 @@ function App() {
       <footer className="container mx-auto p-6 flex flex-col md:flex-row items-center justify-between">
         <p>phz | 2022</p>
         <div className="flex -mx-6">
-          <a href="#" className="mx-3 hover:opacity-50 duration-150">About</a> |
-          <a href="#" className="mx-3 hover:opacity-50 duration-150">Projects</a> |
-          <a href="#" className="mx-3 hover:opacity-50 duration-150">Contact</a>
+          <a href="https://www.linkedin.com/in/piotr-h-zacharski" className="mx-3 hover:opacity-50 hover:text-yellow duration-150"><LinkedInIcon /></a> |
+          <a href="https://github.com/Piotr-Zacharski" className="mx-3 hover:opacity-50 duration-150"><GitHubIcon /></a>
         </div>
       </footer>
     </div>
